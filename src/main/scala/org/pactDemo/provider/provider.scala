@@ -21,5 +21,5 @@ class ProviderController extends Controller {
 
 
 object Provider extends App {
-  new FinatraServer(9000, new ProviderController).main(Array())
+  new FinatraServer(9000, new ProviderController).main()
 }
